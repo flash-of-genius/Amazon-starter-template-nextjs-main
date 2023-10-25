@@ -8,7 +8,7 @@ export default function Home() {
         <title>Amazon 2.0</title>
       </Head>
 
-      <Head />
+      <Header />
     </div>
   );
 }

@@ -1,14 +1,11 @@
-import Head from "next/head";
-import Header from "../components/Header";
+import React from "react";
 
-export default function Home() {
+function Header() {
   return (
     <div>
-      <Head>
-        <title>Amazon 2.0</title>
-      </Head>
-
-      <Head />
+      <h1>I m header</h1>
     </div>
   );
 }
+
+export default Header;
